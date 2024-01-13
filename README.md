@@ -15,4 +15,11 @@ The main benefit is that you will be able to run on a virtual machine.
 
 ### What's included:
 - `/devcontainer/.devcontainer` settings file, which tells your environment how to be configured. 
-- `requirements.txt` which complies with the course's requirements
+- `requirements.txt` which installs the Python packages per CS6601 specifications
+
+### Launching from your browser
+![image showing how to launch codespaces from github](github_codespace_button.png)
+
+### Running Locally
+- clone the repo, and open the folder in vscode.
+![image showing how to launch codespaces from github](github_codespace_button.png)
