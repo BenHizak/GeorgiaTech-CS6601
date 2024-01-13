@@ -11,15 +11,15 @@ The main benefit is that you will be able to run on a virtual machine.
 ### Three ways of running DevContainers [DevContainers](https://code.visualstudio.com/docs/devcontainers/containers)
 - Locally, requires Docker
 - From your browser using [GitHub Codespaces](https://github.com/features/codespaces), which maybe [free for students](https://learn.microsoft.com/en-us/training/student-hub/github-codespaces-for-students)
-- hybrid: which means you're running a local editor but the code is running on the cloud
+- Hybrid: which means you're running a local editor but the code is running on the cloud
 
 ### What's included:
 - `/devcontainer/.devcontainer` settings file, which tells your environment how to be configured. 
 - `requirements.txt` which installs the Python packages per CS6601 specifications
 
 ### Launching from your browser
-![image showing how to launch codespaces from github](github_codespace_button.png)
+![image showing how to launch codespaces from github](images/github_codespace_button.png)
 
 ### Running Locally
-- clone the repo, and open the folder in vscode.
-![image showing how to launch codespaces from github](github_codespace_button.png)
+- clone the repo, and open the folder in vscode. You should see a message asking you whether you want to "reopen in container"
+![image showing visualcode asking whether you want to reopen in container](images/vscode_reopen_in_container.png)
